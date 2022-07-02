@@ -1,2 +1,3 @@
 # renovate-presets
-My Renovate presets
+
+My Renovate bot presets.
