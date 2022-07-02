@@ -24,7 +24,6 @@
       ],
       "matchUpdateTypes": "major",
       "groupName": "Prisma",
-      "groupSlug": "major-prisma",
       "stabilityDays": 3
     },
     {
@@ -34,7 +33,6 @@
       ],
       "matchUpdateTypes": "major",
       "groupName": "React",
-      "groupSlug": "major-react",
       "stabilityDays": 3
     }
   ],
