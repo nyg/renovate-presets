@@ -10,12 +10,13 @@
         "patch"
       ],
       "schedule": [
-        "after 5am and before 11am every saturday"
+        "after 5am and before 10am every saturday"
       ],
       "groupName": "all stable non-major dependencies",
       "groupSlug": "all-stable-minor-patch",
       "stabilityDays": 3,
-      "automerge": true
+      "automerge": true,
+      "automergeType": "branch"
     },
     {
       "matchPackageNames": [
