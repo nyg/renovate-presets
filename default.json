@@ -16,7 +16,7 @@
       "groupSlug": "all-stable-minor-patch",
       "stabilityDays": 3,
       "automerge": true,
-      "automergeType": "branch"
+      "automergeType": "pr"
     },
     {
       "matchPackageNames": [
