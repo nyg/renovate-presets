@@ -35,6 +35,15 @@
       "matchUpdateTypes": "major",
       "groupName": "React",
       "stabilityDays": 3
+    },
+    {
+      "matchPackageNames": [
+        "next",
+        "eslint-config-next"
+      ],
+      "matchUpdateTypes": "major",
+      "groupName": "Next.js",
+      "stabilityDays": 3
     }
   ],
   "branchPrefix": "renovate-",
