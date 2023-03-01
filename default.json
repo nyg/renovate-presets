@@ -10,7 +10,7 @@
         "patch"
       ],
       "schedule": [
-        "every 3 weeks"
+        "on the first day of the month"
       ],
       "groupName": "all stable non-major dependencies",
       "groupSlug": "all-stable-minor-patch",
