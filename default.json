@@ -50,6 +50,10 @@
   "dependencyDashboard": true,
   "ignorePaths": [],
   "internalChecksFilter": "strict",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "osvVulnerabilityAlerts": true,
   "prCreation": "immediate",
   "rangeStrategy": "pin",
   "separateMultipleMajor": true,
