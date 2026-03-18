@@ -2,66 +2,61 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
       "matchUpdateTypes": [
         "minor",
         "patch"
       ],
       "schedule": [
-        "on the first day of the month"
+        "* * 1 * *"
       ],
       "groupName": "all stable non-major dependencies",
       "groupSlug": "all-stable-minor-patch",
-      "stabilityDays": 1,
-      "automerge": true,
-      "automergeType": "pr"
+      "automerge": true
     },
     {
       "matchPackageNames": [
         "prisma",
         "@prisma/client"
       ],
-      "matchUpdateTypes": "major",
-      "groupName": "Prisma",
-      "stabilityDays": 1
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "Prisma"
     },
     {
       "matchPackageNames": [
         "react",
         "react-dom"
       ],
-      "matchUpdateTypes": "major",
-      "groupName": "React",
-      "stabilityDays": 1
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "React"
     },
     {
       "matchPackageNames": [
         "next",
         "eslint-config-next"
       ],
-      "matchUpdateTypes": "major",
-      "groupName": "Next.js",
-      "stabilityDays": 1
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "Next.js"
     }
   ],
   "branchPrefix": "renovate-",
-  "dependencyDashboard": true,
-  "ignorePaths": [],
   "internalChecksFilter": "strict",
   "lockFileMaintenance": {
     "enabled": true
   },
   "osvVulnerabilityAlerts": true,
-  "prCreation": "immediate",
   "rangeStrategy": "pin",
   "separateMultipleMajor": true,
-  "stabilityDays": 1,
+  "minimumReleaseAge": "3 days",
   "timezone": "Europe/Zurich",
   "vulnerabilityAlerts": {
     "automerge": true,
-    "schedule": ["before 4am every day"],
-    "stabilityDays": 0
+    "schedule": ["* 0-3 * * *"],
+    "minimumReleaseAge": "0 days"
   }
 }
