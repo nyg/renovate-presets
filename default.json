@@ -14,9 +14,7 @@
       ],
       "groupName": "all stable non-major dependencies",
       "groupSlug": "all-stable-minor-patch",
-      "minimumReleaseAge": "1 day",
-      "automerge": true,
-      "automergeType": "pr"
+      "automerge": true
     },
     {
       "matchPackageNames": [
@@ -26,8 +24,7 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "groupName": "Prisma",
-      "minimumReleaseAge": "1 day"
+      "groupName": "Prisma"
     },
     {
       "matchPackageNames": [
@@ -37,8 +34,7 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "groupName": "React",
-      "minimumReleaseAge": "1 day"
+      "groupName": "React"
     },
     {
       "matchPackageNames": [
@@ -48,22 +44,18 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "groupName": "Next.js",
-      "minimumReleaseAge": "1 day"
+      "groupName": "Next.js"
     }
   ],
   "branchPrefix": "renovate-",
-  "dependencyDashboard": true,
-  "ignorePaths": [],
   "internalChecksFilter": "strict",
   "lockFileMaintenance": {
     "enabled": true
   },
   "osvVulnerabilityAlerts": true,
-  "prCreation": "immediate",
   "rangeStrategy": "pin",
   "separateMultipleMajor": true,
-  "minimumReleaseAge": "1 day",
+  "minimumReleaseAge": "3 days",
   "timezone": "Europe/Zurich",
   "vulnerabilityAlerts": {
     "automerge": true,
