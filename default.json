@@ -1,5 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": [
@@ -12,43 +15,10 @@
       "groupName": "all stable non-major dependencies",
       "groupSlug": "all-stable-minor-patch",
       "automerge": true
-    },
-    {
-      "matchPackageNames": [
-        "prisma",
-        "@prisma/client"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "groupName": "Prisma"
-    },
-    {
-      "matchPackageNames": [
-        "react",
-        "react-dom"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "groupName": "React"
-    },
-    {
-      "matchPackageNames": [
-        "next",
-        "eslint-config-next"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "groupName": "Next.js"
     }
   ],
   "branchPrefix": "renovate-",
   "internalChecksFilter": "strict",
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "osvVulnerabilityAlerts": true,
   "rangeStrategy": "pin",
   "separateMultipleMajor": true,
@@ -56,7 +26,6 @@
   "timezone": "Europe/Zurich",
   "vulnerabilityAlerts": {
     "automerge": true,
-    "schedule": ["* 0-3 * * *"],
     "minimumReleaseAge": "0 days"
   }
 }
