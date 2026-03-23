@@ -19,6 +19,9 @@
   ],
   "branchPrefix": "renovate-",
   "internalChecksFilter": "strict",
+  "lockFileMaintenance": {
+    "automerge": true
+  },
   "osvVulnerabilityAlerts": true,
   "rangeStrategy": "pin",
   "separateMultipleMajor": true,
