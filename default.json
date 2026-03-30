@@ -15,13 +15,19 @@
       "groupName": "all stable non-major dependencies",
       "groupSlug": "all-stable-minor-patch",
       "automerge": true
+    },
+    {
+      "matchUpdateTypes": [
+        "lockFileMaintenance"
+      ],
+      "automerge": true,
+      "minimumReleaseAge": "0 days"
     }
   ],
   "branchPrefix": "renovate-",
   "internalChecksFilter": "strict",
   "lockFileMaintenance": {
-    "automerge": true,
-    "minimumReleaseAge": "0 days"
+    "enabled": true
   },
   "osvVulnerabilityAlerts": true,
   "rangeStrategy": "pin",
