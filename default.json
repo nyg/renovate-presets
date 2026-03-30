@@ -20,7 +20,8 @@
   "branchPrefix": "renovate-",
   "internalChecksFilter": "strict",
   "lockFileMaintenance": {
-    "automerge": true
+    "automerge": true,
+    "minimumReleaseAge": "0 days"
   },
   "osvVulnerabilityAlerts": true,
   "rangeStrategy": "pin",
