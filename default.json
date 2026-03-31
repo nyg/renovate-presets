@@ -18,10 +18,11 @@
     },
     {
       "matchUpdateTypes": [
-        "lockFileMaintenance"
+        "lockFileMaintenance",
+        "pinDigest"
       ],
       "automerge": true,
-      "minimumReleaseAge": "0 days"
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
     }
   ],
   "branchPrefix": "renovate-",
