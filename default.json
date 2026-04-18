@@ -19,7 +19,8 @@
     {
       "matchUpdateTypes": [
         "lockFileMaintenance",
-        "pinDigest"
+        "pinDigest",
+        "digest"
       ],
       "automerge": true,
       "minimumReleaseAgeBehaviour": "timestamp-optional"
