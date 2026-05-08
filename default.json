@@ -5,6 +5,10 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": ["eslint"],
+      "allowedVersions": "<10"
+    },
+    {
       "matchUpdateTypes": [
         "minor",
         "patch"
