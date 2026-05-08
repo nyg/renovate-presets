@@ -5,6 +5,7 @@
   ],
   "packageRules": [
     {
+      "matchManagers": ["npm"],
       "matchPackageNames": ["eslint"],
       "allowedVersions": "<10"
     },
