@@ -29,6 +29,11 @@
       ],
       "automerge": true,
       "minimumReleaseAgeBehaviour": "timestamp-optional"
+    },
+    {
+      "matchManagers": ["uv"],
+      "matchDepTypes": ["requires-python"],
+      "rangeStrategy": "replace"
     }
   ],
   "branchPrefix": "renovate-",
