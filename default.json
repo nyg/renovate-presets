@@ -31,7 +31,7 @@
       "minimumReleaseAgeBehaviour": "timestamp-optional"
     },
     {
-      "matchManagers": ["uv"],
+      "matchManagers": ["pep621"],
       "matchDepTypes": ["requires-python"],
       "rangeStrategy": "replace"
     }
