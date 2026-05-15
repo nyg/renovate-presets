@@ -27,6 +27,9 @@
         "pinDigest",
         "digest"
       ],
+      "schedule": [
+        "* * 3 * *"
+      ],
       "automerge": true,
       "minimumReleaseAgeBehaviour": "timestamp-optional"
     },
