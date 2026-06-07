@@ -24,6 +24,7 @@
     {
       "matchUpdateTypes": [
         "lockFileMaintenance",
+        "pin",
         "pinDigest",
         "digest"
       ],
