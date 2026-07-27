@@ -10,6 +10,12 @@
       "allowedVersions": "<10"
     },
     {
+      "description": "Skip JavaFX early-access builds. OpenJFX publishes them to Maven Central under the next major line (e.g. 27-ea+25) and marks them as the latest release, so Renovate offers them as ordinary major updates rather than treating them as unstable. They are not something to ship in a release bundle.",
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["org.openjfx:**"],
+      "allowedVersions": "!/-ea\\+\\d+$/"
+    },
+    {
       "matchUpdateTypes": [
         "minor",
         "patch"
