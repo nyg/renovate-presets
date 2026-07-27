@@ -10,6 +10,11 @@
       "allowedVersions": "<10"
     },
     {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["org.openjfx:**"],
+      "allowedVersions": "!/-ea\\+\\d+$/"
+    },
+    {
       "matchUpdateTypes": [
         "minor",
         "patch"
