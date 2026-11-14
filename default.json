@@ -5,11 +5,6 @@
   ],
   "packageRules": [
     {
-      "matchManagers": ["npm"],
-      "matchPackageNames": ["eslint"],
-      "allowedVersions": "<10"
-    },
-    {
       "matchDatasources": ["maven"],
       "matchPackageNames": ["org.openjfx:**"],
       "allowedVersions": "!/-ea\\+\\d+$/"
